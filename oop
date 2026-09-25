@@ -1,0 +1,109 @@
+Classes and Objects
+Definition of classes and objects
+Object creation and lifecycle
+Memory allocation for objects
+this pointer
+
+Access Modifiers
+Private, Protected, Public 
+Default 
+Package-Private
+
+Seven Pillars of OOP
+Encapsulation
+Abstraction
+Inheritance
+Polymorphism
+Modularity
+Composition
+Reusability
+
+Friend Functions and Friend Classes 
+Purpose of friend functions
+
+Virtual Functions
+Virtual keyword and late binding
+Pure virtual functions
+Role in polymorphism
+
+Inheritance
+Types of inheritance 
+Protected inheritance
+Use of super keyword 
+Multiple Inheritance
+How C++ supports it
+Diamond problem in C++ and solutions 
+Java and Multiple Inheritance
+
+Interface-based multiple inheritance in Java
+Use of default methods in interfaces
+
+Abstraction
+Concept and practical usage in C++ and Java
+Real-life examples
+Abstract Classes
+Abstract classes vs Interfaces
+Usage in design
+Interfaces (Java)
+
+Singleton Classes
+Design patterns for Singleton
+
+Static Keyword
+Static variables and methods
+Static blocks in Java
+Static member functions (C++)
+
+Immutable Objects
+Concept of immutability
+
+Polymorphism
+Compile-time polymorphism (Method Overloading)
+Run-time polymorphism (Method Overriding, Virtual Functions)
+Function Overloading
+Function overloading in C++
+Method overloading in Java
+Operator overloading (C++)
+Function Overriding
+Method overriding in Java
+Overriding rules (access level, return type, etc.)
+Copy Constructor (C++)
+
+Deep vs shallow copy
+When and why it’s used
+Final Keyword (Java)
+
+Final classes, methods, and variables
+Differences between C++ const and Java final
+Abstract Classes vs. Interfaces
+
+Operator Overloading (C++)
+Overloading different operators
+Friend vs member operator overloading
+Super Keyword (Java)
+Type Casting
+Implicit and explicit casting
+instanceof operator in Java
+
+Try-Catch Block
+Exception handling in C++ and Java
+Different exception types
+Custom exceptions (Java)
+Finally Keyword (Java)
+Use in exception handling
+Finally block behavior with return/throw
+Constructor Chaining
+
+Private Constructor
+
+instanceof Operator (Java)
+Type checking and class hierarchy
+Difference between instanceof and isInstance()
+
+Finalize Keyword (Java)
+Purpose of finalize method
+
+Pure Virtual Functions (C++)
+
+template(c++)
+volatile keyword
