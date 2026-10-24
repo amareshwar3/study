@@ -1,1 +1,47 @@
-hi
+Task 1
+You are given a list of names of new employees in a company. You need to generate a company email address for each of them.
+The name of each person consists of two or three parts: a first name, an optional middle name, and a last name, separated by spaces. Each part can include only English letters (but the last name may additionally contain hyphens). The name of the company also consists only of English letters.
+Each address must use the format "First.Last@Company.com O " where
+• First O is the first name,
+• Last • is the last name, truncated to at most 8 initial letters,
+• Company O is the company name.
+The address should be in lower case and should not contain hyphens.
+Note that hyphens should be removed before truncating the last name.
+Additionally, if more than one person would have the same email address, differentiate their addresses by adding subsequent integers (starting from the second address and number 2) before the ""O sign. For example, if there are three people who would have the address
+"jd@company.com" O, they should be assigned addresses "jd@company.com" O
+"jd2@company.com" and "jd3@company.com" O respectively.
+Write a function:
+class Solution f public String solution(String S, String C); }
+that, given a stringS containing a list of names separated by the characters"; 0" (a semicolon followed by a space) and a string C specifying the name of the company, returns a string containing the list of email addresses separated by the characters"; O " in the same order as they were in the input. Each entry on the list should be of the form "Name <Email> O".
+
+
+containing the list of email addresses separated by the characters"; U "in the same order as they were in the input. Each entry on the list should be of the form " Name <Email> O".
+For example, given C = "Example "and string S as follows:
+Sol
+Fil
+John Doe; Peter Benjamin Parker; Mary Jane Watson-Parker; John Elvis Doe; John Evan Doe; Jane Doe; Peter Brian Parker
+the function should return:
+John Doe <john.doe@example.com>; Peter Benjamin Parker <peter. parker@example.com>;
+Mary Jane Watson-Parker <mary.watsonpa@example.com>; John Elvis Doe <john.doe2@example.com>; John Evan Doe <john.doe3@example.com>; Jane Doe
+sjane.doe@example.com>; Peter Brian Parker <peter.parker2@example.com>
+Assume that:
+• the length of string S is within the range (3.1,000);
+• the length of string C is within the range (1.100];
+• string S consists only of letters ( a
+and/or A • - Z ), spaces, hyphens and
+• stringS contains valid names; no name appears more than once;
+• string C is made only of letters (a -z Dand/or A O- ZO).
+In your solution, focus on correctness. The performance of your solution will not be the focus of the assessment.
+Copyright 2009-2026 by Codility Limited. All Rights Reserved. Unauthorized copying, publication or disclosure prohibited.
+
+
+#include <algorithm>
+3
+4
+5
+// you can write to stdout for debugging purposes, e.g.
+// cout «< "this is a debug message" < endl;
+string solution(string &S, string &C) {
+/ Implement your solution here
+}
+I
